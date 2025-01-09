@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "prueba-data-engineer"
+version = "0.1.0"
+description = "Scraper para propiedades en RealityRealtyPR"
+authors = ["Edioff <johanandresforero@hotmail.es>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+playwright = "^1.41.0"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.3"
+lxml = "^4.9.3"
+rich = "^13.7.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
